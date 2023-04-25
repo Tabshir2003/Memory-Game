@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+  }
+  
+  img.card-image {
+    box-shadow: 5px 5px 10px #AAAAAA;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    margin: 5px;
+    width: 10%;
+  }
+  
+  #card-list {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
